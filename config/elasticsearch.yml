@@ -1,5 +1,8 @@
 path:
   data: /data/data
   logs: /data/log
-  plugins: /data/plugins
   work: /data/work
+
+index.analysis.analyzer.korean:
+  type: custom
+  tokenizer: mecab_ko_standard_tokenizer
